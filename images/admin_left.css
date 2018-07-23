@@ -1,0 +1,27 @@
+*{margin:0;padding:0;}   
+img{border: 0;}
+html{min-width: 1000px;height:100%; }
+body{width:auto;border:0;font:12px/16px "ËÎÌו" !important;overflow:hidden;background-image: url(admin_left_bg.jpg);background-repeat: repeat-y;height:100%;}
+td {font:12px/16px "ËÎÌו" !important;}
+/*div{word-wrap:break-word; word-break:normal;}*/
+div:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+ul{list-style:none; padding:0; margin:0;}
+.left_tab {height: 100%;width: 190px;}
+#left_menus {line-height:18px;}
+#m_l {padding:10px 0 10px 0;background-image: url(admin_left_bg2.jpg);background-repeat: repeat-y;}
+#left_menus li {background:none !important;margin:0;height:20px;}
+#left_menus li a:link,#left_menus li a {display:block; color:#FFFFFF; text-decoration:none;padding-left:50px;background:url(database_table.png) no-repeat;background-position: 15px 0px;}
+#left_menus li a:hover {border:1px solid #fff;background:url(database_table.png) #b4d9e5 no-repeat; background-position: 15px 0px;color:#015778;}
+/*- filter:alpha(opacity=50);
+opacity:0.5; -*/
+#left_menus li.nextmenu {border-bottom:1px dashed #ccc;margin:0px auto;height:auto;}
+#left_menus li.nextmenu a,#left_menus li.nextmenu a:link,#left_menus li.nextmenu a:visited {padding-left:20px;font-weight: bold;background:none;text-decoration:none;border:0px;line-height:25px;}
+#left_menus li.nextmenu a:hover {text-decoration:none;border:0px;color:#fff;}
+#left_menus li.nextmenu li a,#left_menus li.nextmenu li a:link,#left_menus li.nextmenu li a:visited {padding-left:50px;font-weight: normal;background-color:auto;background:url(database_table.png) no-repeat; background-position: 15px 0px;line-height:18px;}
+#left_menus li.nextmenu li a:hover {font-weight: normal;border:1px solid #fff;background:url(database_table.png) #b4d9e5 no-repeat; background-position: 15px 0px;color:#015778;}
+.left_l2 {color: #FFFFFF;}
+#left_l2 {margin:auto auto auto 0px;background-image: url(email_link.png);background-repeat: no-repeat;background-position: 10px 50px;text-indent:35px;}
+.left_l2_pic {margin-left:30px;margin-bottom:10px;background-image: url(admin_left_c_pic.gif);background-repeat: no-repeat;height: 38px;width: 149px;}
+.left_l2 a {color: #FFFFFF;text-decoration: none;}
+iframe {visibility: hidden;}
+:focus { -moz-outline-style: none;outline-style: none; }

@@ -1,0 +1,34 @@
+#tabs0 .main { clear:both; padding:8px; border-top: 5px solid #E6F8FF;} 
+#tabs0 { margin:0 auto; min-height: 300px; width: 100%;  background-color: #fff; } 
+.menu0 {width: 100%;background: #fff; } 
+.menu0 li{ display:block; float: left; padding: 4px 0; width:100px; text-align: center; cursor:pointer; border-right: 1px solid #cccccc;border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;} 
+.menu0 li.hover{background: #E6F8FF;border-bottom: 1px solid #E6F8FF;font-weight: bolder;} 
+#main0 ul{display: none; } 
+#main0 ul.block{display: block;} 
+
+.file_TEXTAREA_info {width:100%;height:50px;border: #ccc 1px solid;}
+.file_input_info {width:100%;border:0;border-bottom: #ccc 0px solid;text-align: center;background: #F9F9F9;}
+#imageurl {border: 3px double #CCCCCC;}
+.file_butt {
+	text-align: center;
+}
+
+.file_butt a {
+	clear: left;
+	float: left;
+	border: 1px solid #CCCCCC;
+	width:120px;
+	line-height: 40px;
+	margin: 1px 10px;
+	padding-top:3px;
+}
+.file_butt a:hover {background:#E6F8FF;}
+.file_butt span {
+	width:100%;
+	padding:2px 40px;
+}
+.file_butt .t1 {background:url(admin_ico_enter.gif);background-repeat: no-repeat;background-position: 10px 0;}
+.file_butt .t2 {background:url(admin_ico_rf.gif);background-repeat: no-repeat;background-position: 10px 0;}
+.file_butt .t3 {background:url(admin_ico_goback.gif);background-repeat: no-repeat;background-position: 10px 0;}
+
+.block li table.filetab td {line-height:28px;height:30px;}
