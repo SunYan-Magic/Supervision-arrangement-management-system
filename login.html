@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="Author" contect="hayden">
+<title>监考安排管理系统</title>
+<link rel="stylesheet" type="text/css" href="images/login.css" />
+<script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
+<script type="text/javascript" src="js/checkuser.js" ></script>
+</head>
+<body>
+<div class="bg_body">
+	<div class="body">
+		<div class="logs">
+			<div class="logtext">
+				<ul>
+					<li>帐&nbsp;&nbsp;&nbsp;&nbsp;号：
+						<input id="UserName" type="text" class="input_text" onFocus="this.select();" 
+							onMouseOver="this.style.background='#E1F4EE';"
+							onMouseOut="this.style.background='#FFFFFF'" 
+							onkeydown="if(event.keyCode==13)event.keyCode=9" />
+					</li>
+					<li>密&nbsp;&nbsp;&nbsp;&nbsp;码：
+						<input id="Password" type="password" class="input_text" onFocus="this.select();" 
+							onMouseOver="this.style.background='#E1F4EE';" 
+							onMouseOut="this.style.background='#FFFFFF'"  
+							onkeydown="if(event.keyCode==13)event.keyCode=9" />
+					</li>
+				</ul>
+				 
+				<div class="log_but">
+				<input type="image"  name="s1" accesskey="13" id="s1" src="images/login_botton.gif" onFocus="this.blur()" onclick="checkuser()"/> 
+				</div>
+				   <div >
+                    <input id="Radio1" type="radio" name="type" style="margin-left:30px; margin-top:25px;" checked="CHECKED" value="1"/>老师
+                    <input id="Radio2" type="radio" name="type" style="margin-left:5px;" value="2"/>管理员</div>
+                   
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer"> 
+	Copyright &copy; <a href="zuozhe.html" class="sizecolor">Sunshine</a>  2012-2016, Powered by <a href="zuozhe.html" class="sizecolor">SunYan</a> 
+</div>
+
+</body>
+</html>
